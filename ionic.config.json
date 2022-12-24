@@ -1,0 +1,7 @@
+{
+  "name": "MyTutorTracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
