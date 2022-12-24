@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { IonicModule } from '@ionic/angular';
+import { NgxTranslateModule } from './translate.module';
 
 
 @NgModule({
@@ -14,11 +15,13 @@ import { IonicModule } from '@ionic/angular';
     CommonModule,
     RouterModule,
     HttpClientModule,
+    NgxTranslateModule,
     ReactiveFormsModule
   ],
   declarations: [],
   exports: [
     ReactiveFormsModule,
+    NgxTranslateModule,
     HttpClientModule,
     RouterModule,
     CommonModule,
